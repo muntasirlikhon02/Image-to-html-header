@@ -1,0 +1,50 @@
+/*header start*/
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: #121A2B;
+	margin:5px;
+}
+.wrapper{ overflow: hidden;
+	width:80%;
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	float:left;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	float:right;
+	margin-top:35px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a {
+
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+	text-transform:capitalize;
+	transition:.5s;
+	padding:0 15px;
+	display: block;
+
+}
+.menu ul li:last-child a{
+	padding-right:0; 
+}
+.menu ul li a:hover{
+	color:#1486BC;
+}
+/*header end*/
